@@ -1,0 +1,41 @@
+# Nextflow
+.work/
+.nextflow/
+.nextflow.log*
+
+# Logs
+logs/
+*.log
+
+# Raw sequencing data
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq.gz
+
+# Alignment files (large)
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Variant files (large)
+*.vcf
+*.vcf.gz
+*.tbi
+
+# Reference genome files
+reference/*.fa
+reference/*.fasta
+reference/*.dict
+reference/*.fai
+reference/bwa_index/
+
+# Results
+results/*
+!results/example/
+
+# Conda
+.conda/
+env/

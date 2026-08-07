@@ -1,0 +1,15 @@
+name: variantcalling
+
+channels:
+  - bioconda
+  - conda-forge
+
+dependencies:
+  - fastqc
+  - fastp
+  - bwa-mem2
+  - samtools
+  - gatk4
+  - bcftools
+  - snpeff
+  - multiqc
