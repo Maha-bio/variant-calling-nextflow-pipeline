@@ -39,3 +39,49 @@ results/*
 # Conda
 .conda/
 env/
+
+# Nextflow
+.work/
+.nextflow/
+.nextflow.log*
+work/
+
+# Raw sequencing data
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Reference genome and indexes
+data/reference/
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Results
+results/
+
+# Reports
+*.html
+*.zip
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

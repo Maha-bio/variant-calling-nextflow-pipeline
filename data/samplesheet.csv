@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+SRR303351,data/raw/SRR303351_1.fastq.gz,data/raw/SRR303351_2.fastq.gz
